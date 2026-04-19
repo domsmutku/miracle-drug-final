@@ -1,0 +1,88 @@
+:root {
+  --main-color: #f35790;
+  --brand-font: "DM Serif Text", serif;
+  --border: 2px solid #000;
+}
+
+h2 {
+  font-family: var(--brand-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin: 70px 0px 0px 0px;
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--brand-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+h3 {
+  font-family: var(--brand-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+a.button {
+  border: var(--border);
+  border-radius: 3px;
+  color: #fff;
+  background: #000;
+  font-family: var(--brand-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 12px 20px;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-property: all;
+  cursor: pointer;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a.button:hover {
+  color: #000;
+  background: var(--main-color);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 60px 0px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.custom-navbar {
+  background-color: var(--main-color);
+  font-family: var(--brand-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.nav-link {
+  margin: 0 10px;
+}
+
+.navbar {
+  height: 48px;
+}
