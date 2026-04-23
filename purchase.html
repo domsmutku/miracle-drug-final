@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order the Miracle Drug</title>
+    <meta name="description"  content="Confirm your order and unlock access to The Miracle Drug, the product trusted by citizens who refuse to settle for the baseline." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,6 +23,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg custom-navbar">
@@ -62,7 +64,7 @@
     <div class="row purchase-row">
       <div class="col-75">
         <div class="container container-purchase">
-          <form action="/action_page.php">
+          <form action="index.html">
             <div class="row">
               <div class="col-50">
                 <h3>Billing Address</h3>
@@ -164,7 +166,7 @@
               <input type="checkbox" checked="checked" name="sameadr" />
               I confirm this purchase is not motivated by greed or power.
             </label>
-            <input type="submit" value="Continue to checkout" class="btn" />
+            <input type="submit" value="Continue to checkout" class="btn" onclick="return clicked();"/>
           </form>
         </div>
       </div>
