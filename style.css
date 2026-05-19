@@ -257,3 +257,38 @@ span.price {
 .footer-text {
   font-size: 16px;
 }
+
+.buttons-phone {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 50px 0px 0px 0px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+  }
+  h3,
+  .quote {
+    font-size: 20px;
+  }
+  .container-faq,
+  .container {
+    margin-left: 10px;
+  }
+  .question,
+  .answer,
+  .client {
+    font-size: 18px;
+  }
+  footer {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .buttons-phone {
+    display: none;
+  }
+}
